@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/LoginPage.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class='login-container'>
+
+        <div class='cancel-button'>
+            <button style="width: 20%;">X</button>
+        </div>
+
+        <div className='login-page'>
+
+            <div className='login-page-header'>
+                <h2>Login via E-mail</h2>
+            </div>
+
+
+
+            <!-- LOGIN FORM -->
+
+            <form onSubmit={httpLoginUser} className='login-page-form' >
+                <div className='email-input'>
+                    <p>E-mail*</p>
+                    <input className='geninput' onChange={getDetails} name='email' />
+                </div>
+
+                <div className='password-input'>
+                    <p>Password*</p>
+                    <input className='geninput' onChange={getDetails} name='password' />
+                </div>
+
+                <div className='login-button'>
+                    <button>Submit</button>
+                </div>
+
+                <div className='forgot-password'>
+                    <h3>Forgot password?</h3>
+                </div>
+
+                <div class='create-new-account'>
+                    <h3>Don't have an account? </h3>
+                </div>
+
+            </form>
+
+        </div>
+
+        <footer>
+            <p class="game-text">
+                &copy; 2024 Gaming Store
+            </p>
+        </footer>
+
+    </div>
+    
+</body>
+</html>

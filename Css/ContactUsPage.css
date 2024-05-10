@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+}
+.contact-page{
+    width: 100%;
+    margin: 3% auto;
+}
+
+.contact-us-header{
+    background-color:rgb(16, 212, 92);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us-header h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.know-us-better h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.phone-email-address{
+    display: flex;
+    justify-content: space-between;  
+    margin: 2% auto 0;
+    width: 85%;
+}
+
+.phone-email-address img{
+   width:50px;
+   height: 50px;
+}
+
+.phone-id, .email-id, .address-id {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ph-em-ad h2{
+  margin-bottom: 0;
+}
+
+#address-cp{
+    margin-top: 15%;
+}
+
+.ph-em-ad p{
+    margin-top: 0;
+}
+
+
+.get-in-touch{
+    text-align: center;
+}
+
+.get-in-touch h1{
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.get-in-touch p{
+    width: 45%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    color: #c2c2c2f6;;
+}
+
+.contact-page-form{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+ /* INPUT */
+
+ input{
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+ /* BUTTON */
+
+button{
+    border: 2px solid  rgb(0, 0, 0);
+    background: none;
+    width: 120px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-family: "montserrat";
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px  2px 1px 1px black;
+    z-index: 1;
+    background-color: #f5f5f5b0;
+    color: black;
+    font-size: bold;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button:hover{
+    color: rgb(255, 250, 250);  
+}
+  
+button::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+    transition: 1.5s;
+    color: #fff;
+}
+
+button::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+button:hover::before{
+    height: 180%;
+}
+.fullname-mobile-email{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0 30px;
+}
+.input-grow{
+    width: 30%;
+}
+.fme-input{
+    padding: 15px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background-color: #d9d9d971;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+
+.subject input{
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    background-color: #d9d9d971;
+    outline: none;
+    border: none;
+}
+
+.message textarea{
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    background-color: #d9d9d971;
+    outline: none;
+    border: none;
+}
+
+.send-message{
+    text-align: center;
+    margin-bottom: 30px;
+}

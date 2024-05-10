@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="/Css/RegisterPage.css">
+</head>
+<body>
+    <div class='register-container'>
+
+
+        <div class='cancel-button'>
+            <button style="width: 20%;">X</button>
+        </div>
+
+        <div class='register-page'>
+
+            <div class='register-page-header'>
+                <h2>Signup a new account</h2>
+            </div>
+
+
+            
+            <!-- REGISTER FORM -->
+
+            <form  class='register-page-form'>
+                <div class='fullname-input'>
+                    <p>FullName*</p>
+                    <input class='gen-input' onChange={sendDetails} name='fullName' />
+                </div>
+
+
+                <div class='email-input'>
+                    <p>E-mail*</p>
+                    <input class='gen-input' onChange={sendDetails} name='email' />
+                </div>
+
+
+                <div class='password-input'>
+                    <p>Password*</p>
+                    <input class='gen-input' onChange={sendDetails} name='password' />
+                </div>
+
+
+                <div class='confirm-password-input'>
+                    <p>Confirm password*</p>
+                    <input class='gen-input' onChange={sendDetails} name='confirmPassword' />
+                </div>
+
+
+                <div class='signup-button'>
+                    <button>Submit</button>
+                </div>
+
+
+                <div class='Have-an-account'>
+                    <!-- <p>{message}</p> -->
+                    <h3>Have an account? <span><a style="color: rgb(255, 255, 255); text-decoration: none;"  href="/LoginPage.html">Login</a></span></h3>
+                </div>
+
+            </form>
+
+            <footer>
+                <p class="game-text">
+                    &copy; 2024 Gaming Store
+                </p>
+            </footer>
+        </div>
+
+    </div>
+</body>
+</html>

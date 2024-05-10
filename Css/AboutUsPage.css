@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.aboutus-header{
+    background-color:rgb(16, 212, 92);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus-header h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.aboutus-info{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aboutus-info h1{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.aboutus-info p{
+    text-align: justify;
+    width: 400px;
+}
+
+.aboutus-info p{
+    width: 80%;
+    word-spacing: 0.4rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
+    font-family:'Raleway', sans-serif;
+}
+
+.why-choose-us{
+    background-image: url(/Images/jeff13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.why-choose-us-info{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2% 0;
+    position: relative;
+    color:black;
+}
+
+.why-choose-us h1{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.why-choose-us p{
+    width: 40%;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family:'Raleway', sans-serif;
+}
+
+.cl-aw-tr{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 3% 0 ;
+}
+
+.client-sat, .award, .trustable{
+    background-color: white;
+    box-shadow: 0px 3.43px 3.43px 0px #0000003D;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    padding: 20px 1%;
+    border-radius: 10px;
+}
+.client-sat h4, .award h4, .trustable h4{
+    display: none;
+}
+
+.client-sat:hover, .award:hover, .trustable:hover{
+    background-color:rgb(16, 212, 92);
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.c-a-t h3{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+

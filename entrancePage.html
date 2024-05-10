@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrance Page</title>
+</head>
+<body>
+    <header>
+        <div class="biz">GAMING CLUB</div>
+        
+        <nav>
+            <div class="navigation">
+                <ol class="dropdown">
+                    <a class="about-link" href="/Build Game HTML/COPY Computer Games/HTML/Category Page.html">Category</a>
+                        
+                    <a class="about-link" href="/Build Game HTML/COPY Computer Games/HTML/Order Page.html">Order</a>
+
+                    <a class="about-link" href="/Build Game HTML/COPY Computer Games/HTML/About Us Page.html">About</a>
+
+                    <div class="dropdown-content">
+                        <a href="/Build Game HTML/COPY Computer Games/HTML/Category Page.html" target="_self">Action</a>
+                        <a href="/Build Game HTML/COPY Computer Games/HTML/Category Page.html" target="_self">Sport</a>
+                        <a href="/Build Game HTML/COPY Computer Games/HTML/Category Page.html" target="_self">Adventure</a>
+                    </div>
+                </ol>
+            </div>    
+        </nav>
+    
+    </header>
+
+    
+    <div class="welcome-text">
+        <center>
+            <h2> WELCOME TO THE GAMING CLUB</h2>
+            <p>Name:  <span class="name-link">JEFFERY UGOCHUKWU GBEMUDU</span></p>
+            <p>Student ID:  <span class="name-link">239064743</span></p>
+        </center>
+
+
+        <div class="disclaimer-box">
+            <p class="disclaimer">
+                <span class="disclaimer-link">Disclaimer:</span> Please note that the following content is part of a student assignment.  The information presented herein may be based on academic research, personal interpretation, or educational exercises.  It is not intended to serve as professional advice or factual representation. Any views or opinions expressed within this assignment are solely those of the student and do not necessarily reflect the views of any educational institution or organization. Readers should  exercise their own discretion and judgment when considering the content presented.
+            </p>
+        </div>
+
+        <button class="entersite-button">
+            <a href="/Build Game HTML/COPY Computer Games/HTML/Jeff Home.html">Enter Site</a>
+        </button>
+
+        <div class="game-slide1"></div>
+        <p class="game-text">
+            &copy; 2024 Gaming Store
+        </p>
+    </div>
+
+    <!-- JavaScript for the slideshow -->
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    
+</body>
+</html>
